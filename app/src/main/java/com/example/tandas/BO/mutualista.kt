@@ -1,7 +1,6 @@
 package com.example.tandas.BO
 
 import org.jetbrains.exposed.sql.Table
-import org.jetbrains.exposed.sql.datetime
 
 object cajitas:Table("mutualista")
 {
