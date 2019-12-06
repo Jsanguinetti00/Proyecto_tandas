@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/degradado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Iview_Logo"
+        android:layout_width="371dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/txt_correo"
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="288dp"
+        android:ems="10"
+        android:hint="Tucorreo@servicio.com"
+        android:inputType="textEmailAddress"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_contrasena"
+        android:layout_width="371dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="388dp"
+        android:ems="10"
+        android:hint="Tu contraseña"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_contrasena"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="348dp"
+        android:text="Contraseña"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="256dp"
+        android:text="Correo"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_iniciarsesion"
+        android:layout_width="229dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="472dp"
+        android:text="Iniciar Sesion"
+        android:background="@drawable/btn_redondo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="212dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="552dp"
+        android:text="¿No Tienes Una Cuenta?"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="108dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="552dp"
+        android:background="@android:color/transparent"
+        android:text="Crea Una Aquí"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
